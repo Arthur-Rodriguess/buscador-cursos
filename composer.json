@@ -2,7 +2,6 @@
     "name": "arthur-rodriguess/buscador-cursos",
     "description": "Projeto que faz a busca de cursos no site da Alura",
     "type": "library",
-    "version": "1.1.0",
     "require": {
         "guzzlehttp/guzzle": "^7.9",
         "symfony/dom-crawler": "^7.3",
@@ -37,6 +36,6 @@
     "scripts-descriptions": {
         "check": "Roda as dependências PHAN, PHPCS e PHPUNIT"
     },
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "bin": ["buscar-cursos.php"]
 }
